@@ -1,5 +1,18 @@
-
+/**
+ * Clase principal que prueba el funcionamiento de la clase Calculadora
+ * y muestra los resultados de operaciones básicas y avanzadas por consola.
+ * 
+ * @author Sara Hervás
+ * @version 1.0
+ */
 public class Main {
+
+    /**
+     * Método principal que ejecuta la aplicación.
+     * Crea una calculadora y realiza varias operaciones para mostrar los resultados.
+     * 
+     * @param args Argumentos de línea de comandos (no se utilizan).
+     */
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
 
@@ -16,3 +29,4 @@ public class Main {
         System.out.println("Valor absoluto: " + calculadora.getAvanzadas().valorAbsoluto(-7.5));
     }
 }
+
